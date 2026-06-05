@@ -1,45 +1,47 @@
 .topbar{
-  display: flex;
+  /* display: flex; */
   gap: 4px;
   justify-content: center;
   align-items: center;
 }
 
-/* px-32 border-black border-r bg-amber-500 flex flex-col justify-center items-center */
 .tagLinesDiv{
-    padding: 0 8rem;
+    /* padding: 0 8rem; */
     border-right: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    
 }
 
-.tagLinesH4{
-    font-weight: 300;
-    font-size: 13px;
-}
-/* flex justify-center items-center gap-4 flex-1 border-r border-black */
+
+
 .banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
     flex: 1;
     border-right: 2px solid black;
     
 }
 
-/*font-medium shadow-md bg-white  p-4 rounded-2xl flex flex-col justify-center items-center */
 
 .certificate{
     font-weight: 500;
     background-color: white;
     padding: 1rem;
     border-radius: 1rem;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+}
+
+.navBtn:hover{
+    font-size: medium;
+    font-weight: 500;
+    /* background-color: brown; */
 }

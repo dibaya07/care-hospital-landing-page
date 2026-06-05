@@ -10,7 +10,7 @@ export default function Home() {
     <div className="bg-white text-black">
       <HeroSection />
       <Certificate />
-      <div className=" py-14 flex gap-6 px-28 mx-14">
+      <div className=" py-14 flex flex-col md:flex-row gap-6 md:gap-2 lg:gap-6 xl:px-28 mx-1 sm:mx-26 md:mx-4 lg:mx-14">
         <DoctorsSection />
         <FacilitiesSection />
       </div>
