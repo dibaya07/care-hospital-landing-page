@@ -73,7 +73,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="bg-[#05644e] flex w-[96%] lg:w-3/4 text-[8px] sm:text-xs lg:text-base absolute bottom-0  2xl:bottom-5 left-2.5 sm:left-4 lg:left-36 xl:left-40 justify-between py-1.5 sm:py-3 rounded-2xl text-white">
+      <div className="bg-[#05644e] flex w-[96%] lg:w-3/4 text-[8px] sm:text-xs lg:text-base absolute bottom-0  2xl:bottom-5 left-1/2 -translate-x-1/2 justify-between py-1.5 sm:py-3 rounded-2xl text-white">
         <div className=" banner flex-col sm:flex-row gap-1.5 md:gap-4  ">
           <span>
             <IoIosPeople className="text-xl sm:text-2xl lg:text-3xl" />
